@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Lato", serif;
+    background-color: rgb(167, 140, 140);
+}
+#logo{
+    width:20%;
+    height:10%;
+    mix-blend-mode:difference;
+    border-radius: 50%;
+    
+}
+.container{
+    background-color: rgb(244, 237, 229);
+    width: 30%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 10%;
+    text-wrap: stable;
+}
+.login-form{
+    font-size: 1rem;
+    padding: 10% 0%;
+
+}
+#login_form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+input{
+    font-size: 1rem;
+    padding: 2%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    }
+#btn{
+    border-radius: 1rem;
+    width: 30%;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5% 2%;
+    background-color: rgb(255, 230, 202);
+    margin-top: .8rem;
+    margin-bottom: 2rem;
+    text-wrap: wrap;
+}
+#btn:hover{
+    opacity: .7;
+    box-shadow: 1px 1px 2px 2px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: rgba(216, 224, 152, 0.826);
+}
+#forget{
+    text-align: right;
+    font-size: .85rem;
+    margin-right: 16%;
+    color: rgb(67, 169, 228);
+    text-decoration: none;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: normal;
+    margin: 2px;
+}
+#click{
+    color: rgb(67, 169, 228);
+    text-decoration: none;
+}
+#click:hover,#forget:hover{
+    color: rgb(219, 148, 148);
+    transition: .5s;
+}
+.name{
+    display: flex;
+    gap:.3rem;
+    width: 69%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width:1000px) {
+    .container{
+        width:80%;
+        margin-top:8rem;
+    }
+}

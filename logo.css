@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: wheat;
+}
+.logo{
+    width: 90%;
+    height: fit-content;
+    background-color:rgb(244, 237, 229);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15% ;
+    border-radius: 50rem;
+}
+#logo{
+    width: 20%;
+    border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1%;
+    mix-blend-mode: exclusion;
+    animation: moveX 4s ease;
+}
+
+@keyframes moveX {
+    0% {
+        transform: translateX(0) scale(1); 
+    }
+    25%{
+        transform: translateX(15rem) scale(.8); 
+    }
+    50% {
+        transform: translateX(0) scale(1); 
+    }
+    75%{
+        transform: translateX(-15rem) scale(.8); 
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }}

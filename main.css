@@ -1,0 +1,114 @@
+html, body{
+    height: 100%;
+    width:100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(167, 140, 140);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(244, 237, 229);
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 3rem;
+    margin: .5%;
+    mix-blend-mode: exclusion;
+}
+input{
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: 1%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background-color:rgba(117, 116, 116, 0.397) ;
+}
+button{
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin-right: 1%;
+    padding: 10px;
+    border: none;
+    background-color:rgba(142, 138, 138, 0.534)
+
+}
+#signup,#signin{
+    width:3rem;
+}
+h1{
+    font-weight: normal;
+    font-size: 1.5rem;
+    color:rgb(9, 10, 10);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85%;
+}
+#h1{
+   color: rgb(0, 0, 0);
+   font-size: 1.5rem;
+   margin: 7px;
+}
+
+.rightSide{
+    width:3%;
+    height: 100%;
+    background-color: rgb(244, 237, 229);
+    margin: 1%;
+    padding: .5%;
+    padding-left: 1%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide{
+    width: 95%;
+    height: 100%;
+    margin: 1%;
+    margin-left: 0%;
+    padding: .5%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(244, 237, 229);
+    border-radius: 1rem;
+}
+#all,#music{
+    text-align: center;
+    width: 8%;
+    height: 5%;
+    padding: 0%;
+    margin-top: 1%;
+    font-size: 1.2rem;
+    text-wrap: wrap;
+}
+#add {
+    width: 2rem;
+    height: 2rem;
+    margin: 1%;
+    background-image: url("img/icons8-add-100.png");
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;  
+    border: none;  
+    background-color: transparent;
+    cursor: pointer;   
+}
+#add:hover{
+border: 1px solid black;
+border-radius: 0;
+}
+.hidden {
+    display: none; 
+
+.visible {
+    display: block; 
+}
+}

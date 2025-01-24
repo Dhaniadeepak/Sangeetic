@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music with Sangeetic ! Change your mood</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <img src="img/1600w-bn3cRp6B50U.webp" alt="logo" id="logo">
+            <h1 style="font-size: 1.4rem; font-family: 'Franklin Gothic Medium'; font-weight:normal;">Welcome to Sangeetic</h1>
+            <h1>Login</h1>
+            <form action="#" id="login_form">
+                <input type="text" name="username" placeholder="Enter Username or Email" required>
+                <input type="password" name="password" id="loginpass" placeholder="password" required>
+                <a id="forget" href="verifyUser.html">Forget password</a>
+                <button id="btn">Log in</button>
+                <h2>new Account ? <a id="click" href="register.html">Register here</a></h2>
+            </form>
+        </div>
+    </div>
+    <script>
+        const login=document.querySelector("#btn")
+        
+        login.addEventListener("click",function(){
+            window.location.href='logo.html';
+        });
+    </script>
+</body>
+</html>
